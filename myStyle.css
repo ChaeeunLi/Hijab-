@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500&family=Noto+Serif+KR:wght@500;600;700;900&family=Song+Myung&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    user-select: none;
+    
+}
+
+html{
+    font-size: 10px;
+    background-color: black;
+}
+
+
+body{
+    -ms-overflow-style: none;
+    }
+    
+   ::-webkit-scrollbar {
+     display: none;
+   }
+
+
+.scrollBtn{
+    padding-top: 40px;
+    padding-left: 220px;
+}
+
+
+#audioBtn{
+    position: fixed;
+    top: 40px;
+    right: 35px;
+ 
+}
+
+.bgBtn{
+    background-color:rgba(0,0,0,0);
+    float:right;
+    border: 0;
+    outline: 0;
+
+}
+.intro{
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+
+}
+
+.intro video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.intro h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 700;
+}
+
+
+
+section{
+    height: 100vh;
+    color:rgb(255, 255, 255);
+
+}
+
+
+
+section p{
+    padding-top: 700px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 2.5rem;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+}
+
+footer{
+    background-color: black;
+
+
+}
+
+footer p{
+    padding-top: 300px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem ;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    padding-bottom: 70px;
+
+}
+
+
+
+.top{
+    position: fixed;
+    bottom: 40px;
+    right: 35px;
+}
+
+
+
+  
+
+.news{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+
+.rel
+{position: relative;}
+.abs
+{position: absolute;}
+
+.imag1{
+    position : relative;
+    top: 650px;
+    right: 450px; 
+    
+}
+
+.imag2{
+    position : relative; 
+    top: 480px;
+    left: 200px;
+    transform: rotate(25deg);
+
+}
+
+.imag3{
+    position : relative; 
+    left: 350px;
+    top: 400px;
+    transform: rotate(-25deg);
+
+} 
+
+/*hover*/
+.scale {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;   
+;
+  }
+  .scale:hover {
+    transform: scale(1.2);}
+
+
+.abtn{
+    position: fixed;
+}
